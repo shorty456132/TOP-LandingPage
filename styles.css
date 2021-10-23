@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px;
+}
+
+a {
+
+}
+
+.header {
+    color: white;
+    background-color: #a0c;
+    padding: 30px 16px;
+    display: flex;
+    justify-content: space-around;
+}
