@@ -35,16 +35,18 @@ p {
 }
 
 .header-container {
-    background-color: #1F2D37;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     height: 700px;
     padding: 0px 150px;
+    padding-bottom: 50px;
 }
 
 .header {
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 700;
+    color: #F9FAF8;
     padding: 20px 50px;
     padding-bottom: 70px;
     display: flex;
@@ -80,7 +82,7 @@ p {
 }
 
 .random-info {
-    padding: 16px 150px;
+    padding: 20px 150px;
     background-color: white;
     color: #222;
     display: flex;
@@ -89,6 +91,9 @@ p {
 
 .random-info p {
     align-self: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 25px;
 }
 
 .random-info .images {
@@ -106,28 +111,59 @@ p {
 }
 
 .random-info .text .subtext {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 155px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 
 .random-info .images .random-image {
-    border: 3px solid maroon;
+    border: 3px solid #4285F4;
     border-radius: 16px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 155px;
 }
 
 
 .quote {
-    height: 30%;
     background-color: #ccc;
+    color: #111;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.quote .text {
+    font-size: 20px;
+    font-style: italic;
+    width: 650px;
+    padding: 5px 0px;
+}
+
+.quote .author {
+    padding-left: 500px;
+    font-weight: 600;
 }
 
 .signup {
-    height: 20%;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.signup .blue-border {
+    flex: .5;
+    border-radius: 6px;
+    padding: 30px 20px;
+    align-self: center;
+    justify-self: center;
+    background-color: #3882F6;
+    margin: 50px;
 }
 
 .footer {
